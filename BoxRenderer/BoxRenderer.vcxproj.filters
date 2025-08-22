@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="MyApp">
+      <UniqueIdentifier>{88244d13-2e94-4be6-98f1-e6149aed19ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{a300f26e-0782-4b0c-b338-80aecfded3ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Headers">
+      <UniqueIdentifier>{ce46e079-4452-4216-a491-076b7bf4fd17}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BasicRenderer.cpp">
+      <Filter>MyApp</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="..\Common\Camera.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\d3dApp.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\d3dUtil.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\DDSTextureLoader.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\GameTimer.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\GeometryGenerator.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\MathHelper.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BasicRenderer.h">
+      <Filter>MyApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Camera.h">
+      <Filter>Util\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\d3dApp.h">
+      <Filter>Util\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\d3dUtil.h">
+      <Filter>Util\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\d3dx12.h">
+      <Filter>Util\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\DDSTextureLoader.h">
+      <Filter>Util\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\GameTimer.h">
+      <Filter>Util\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\GeometryGenerator.h">
+      <Filter>Util\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\MathHelper.h">
+      <Filter>Util\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\UploadBuffer.h">
+      <Filter>Util\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
